@@ -3,7 +3,7 @@ from botbuilder.core import TurnContext
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 def chatgpt_response(text: str) -> str:
